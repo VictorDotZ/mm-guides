@@ -1,0 +1,34 @@
+# Установка и настройка
+
+> Совет: многие руководства на [docs.microsoft.com](https://docs.microsoft.com/) автоматически переведены на русский язык. Чтобы посмотреть англоязычную версию, можно: 
+> * В URL страницы заменить `ru-ru` на `en-us`
+> * Нажать **Прочитать на английском**  
+
+## Шаг 1 - Windows 10
+
+Стоит определиться, куда ставить ОС: на отдельный диск или рядом с другой системой на одном диске - нет универсальной рекомендации, всё зависит от желания и удобства. Важно только чтобы уже установленная или планируемая к установке Windows 10 удовлетворяла требованиям\[[1](https://docs.microsoft.com/virtualization/hyper-v-on-windows/reference/hyper-v-requirements), [2](https://docs.microsoft.com/en-us/windows/wsl/install), [3](https://docs.microsoft.com/en-us/windows/wsl/install-manual)\]:
+
+> Hyper-V:
+> * Windows 10 Enterprise, Pro, or Education
+> * 64-bit Processor with Second Level Address Translation (SLAT)
+> * CPU support for VM Monitor Mode Extension (VT-c on Intel CPUs)
+> * Minimum of 4 GB memory
+>
+> WSL 2:
+> 1. в идеале 
+>    * Windows 10 version 2004 and higher (Build 19041 and higher) or Windows 11
+>
+> 1. либо же
+>    * For x64 systems: Windows 10, Version 1903 or higher, with Build 18362 or higher.
+>    * For ARM64 systems: Windows 10, Version 2004 or higher, with Build 19041 or higher
+
+
+<!-- > Совет: перезагрузите компьютер после выполнения двух команд из инструкции выше, чтобы `.msi`-пакет установился без проблем. Иначе вы можете воспользоваться [этой](https://github.com/microsoft/WSL/issues/5014#issuecomment-605243281) инструкцией, чтобы распаковать `.msi` и скопировать его содержимое в указанную папку. И вообще, если на этих этапах возникают проблемы, для начала попробуйте перезагрузить компьютер. -->
+
+### Загрузочная флешка Windows 10.
+
+[Достаточно подробное руководство по созданию загрузочной флешки при помощи Rufus](https://remontka.pro/rufus-3-bootable-usb/).
+> Совет: чтобы иметь возможность скачивать официальные образы с сайта Microsoft автоматически, повторите действия из [видео](https://www.youtube.com/watch?v=vmIFNUuLsKA).
+
+Приобрести Windows [можно тут](https://www.microsoft.com/ru-ru/windowsforbusiness/how-to-buy), активировать при помощи [этого](https://support.microsoft.com/ru-ru/windows/%D0%B0%D0%BA%D1%82%D0%B8%D0%B2%D0%B0%D1%86%D0%B8%D1%8F-windows-c39005d4-95ee-b91e-b399-2820fda32227) руководства. Пиратством, разумеется, не занимаемся.
+

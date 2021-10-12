@@ -6,4 +6,6 @@
 
 Дистрибутив Linux для WSL: Ubuntu 20.04 LTS. На ней `gcc`, `g++`, `valgrind`, [сервер VSCode](https://code.visualstudio.com/docs/remote/wsl-tutorial#_run-in-wsl) (`code .`), и в VSCode локально на Ubuntu [расширение для C/C++](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools).
 
-С компиляторами для C++ на Windows не дружу. На Ubuntu делаю всё из [интегрированного терминала VSCode](https://code.visualstudio.com/docs/editor/integrated-terminal) (<kbd>CTRL</kbd>+<kbd>SHIFT</kbd>+<kbd>`</kbd>).
+На Windows **отсутствует** какой-либо компилятор C/C++. На Ubuntu всё запускается из [интегрированного терминала VSCode](https://code.visualstudio.com/docs/editor/integrated-terminal) (<kbd>CTRL</kbd>+<kbd>SHIFT</kbd>+<kbd>`</kbd>).
+
+> [см. как сделать также](my-stack-guide.md)
