@@ -4,26 +4,19 @@
 > * В URL страницы заменить `ru-ru` на `en-us`
 > * Нажать **Прочитать на английском**  
 
-## Шаг 1 - Windows 10
+## Шаг 1 - Windows 10 (или 11)
 
-Стоит определиться, куда ставить ОС: на отдельный диск или рядом с другой системой на одном диске - нет универсальной рекомендации, всё зависит от желания и удобства. Важно только чтобы уже установленная или планируемая к установке Windows 10 удовлетворяла требованиям\[[1](https://docs.microsoft.com/virtualization/hyper-v-on-windows/reference/hyper-v-requirements), [2](https://docs.microsoft.com/en-us/windows/wsl/install), [3](https://docs.microsoft.com/en-us/windows/wsl/install-manual)\]:
+Если у вас Windows 11 то всё хорошо. Если Windows 10, которая устанавливалась давно и всё это время не обновлялась, то можно обновить её, либо же установить более современную версию отдельно. В последнем случае стоит определиться, куда ставить ОС: на отдельный диск или рядом с другой системой на одном диске - нет универсальной рекомендации, всё зависит от желания и удобства. Важно только чтобы уже установленная или планируемая к установке Windows 10 удовлетворяла требованиям:
 
-> Hyper-V:
-> * Windows 10 Enterprise, Pro, or Education
-> * 64-bit Processor with Second Level Address Translation (SLAT)
-> * CPU support for VM Monitor Mode Extension (VT-c on Intel CPUs)
-> * Minimum of 4 GB memory
->
 > WSL 2:
-> 1. в идеале 
+> 1. [в идеале](https://docs.microsoft.com/windows/wsl/install) 
 >    * Windows 10 version 2004 and higher (Build 19041 and higher) or Windows 11
 >
-> 1. либо же
+> 1. [либо же](https://docs.microsoft.com/windows/wsl/install-manual)
 >    * For x64 systems: Windows 10, Version 1903 or higher, with Build 18362 or higher.
 >    * For ARM64 systems: Windows 10, Version 2004 or higher, with Build 19041 or higher
 
-
-<!-- > Совет: перезагрузите компьютер после выполнения двух команд из инструкции выше, чтобы `.msi`-пакет установился без проблем. Иначе вы можете воспользоваться [этой](https://github.com/microsoft/WSL/issues/5014#issuecomment-605243281) инструкцией, чтобы распаковать `.msi` и скопировать его содержимое в указанную папку. И вообще, если на этих этапах возникают проблемы, для начала попробуйте перезагрузить компьютер. -->
+<!-- > Совет: перезагрузите компьютер после выполнения двух команд из инструкции выше, чтобы `.msi`-пакет установился без проблем. Иначе вы можете воспользоваться [этой](https://github.com/microsoft/WSL/issues/5014#issuecomment-605243281) инструкцией, чтобы распаковать `.msi` и скопировать его содержимое в указанную папку. И вообще, если на этих этапах возникают проблемы, первым делом попробуйте перезагрузить компьютер. -->
 
 ### Загрузочная флешка Windows 10.
 
@@ -32,3 +25,6 @@
 
 Приобрести Windows [можно тут](https://www.microsoft.com/ru-ru/windowsforbusiness/how-to-buy), активировать при помощи [этого](https://support.microsoft.com/ru-ru/windows/%D0%B0%D0%BA%D1%82%D0%B8%D0%B2%D0%B0%D1%86%D0%B8%D1%8F-windows-c39005d4-95ee-b91e-b399-2820fda32227) руководства. Пиратством, разумеется, не занимаемся.
 
+## Шаг 2 - VSCode
+
+## Шаг 3 - WSL
