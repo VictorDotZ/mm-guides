@@ -1,2 +1,9 @@
 # mm-guides
-some guides that may help with computer science at The MSU Faculty of Mechanics and Mathematics
+
+Тут лежат полезные инструкции, способные немного помочь в "работе на ЭВМ" на механико-математическом факультете МГУ.
+
+[Короткий гайд по работе с терминалом и запуску программ](terminal-tiny-guide.md)
+
+[Описание моей среды](my-stack.md) и [гайд как сделать также](my-stack-guide.md)
+
+[Варианты различных сред](stack-list.md)
